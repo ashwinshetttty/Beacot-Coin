@@ -1,0 +1,35 @@
+
+Genesis Block Input Parameters
+			
+Timestamp Message   : This coin is created for Beacot project
+Timestamp           : 1632392819 
+Block Rewards       : 100
+PUB Secretkey       : 010984710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9
+    
+    
+    
+------------------------------Main Net--------------------------------------------------------
+  
+Time Stamp	    : 1632392819
+Bits			: 0x1e0ffff0
+Nonce			: 2000615810
+Merkle  Hash	: 0xbc80e1a5e15589029580e3f17305734791cc09c693699703efb37737733b19ed
+Genesis Hash	: 0x054c683ba32641dac834029573c18a15cb155cd0c8a260b01f67e715a4032190 
+  
+     
+------------------------------Test Net--------------------------------------------------------
+     
+Time Stamp	   : 1632392819
+Bits			: 0x1e0ffff0
+Nonce			: 211907
+Merkle  Hash	: 0xbc80e1a5e15589029580e3f17305734791cc09c693699703efb37737733b19ed
+Genesis Hash	: 0xa4bef379bfb06fe27e51a758550b51fc1e009cbf60ac24a87b589aa1615d18b8 
+     
+     
+------------------------------Regression Test Net--------------------------------------------------------
+     
+Time Stamp	   : 1632392819
+Bits			: 0x207fffff
+Nonce			: 2
+Merkle  Hash	: 0xbc80e1a5e15589029580e3f17305734791cc09c693699703efb37737733b19ed
+Genesis Hash	: 0xace12fd4d0e491808794827fd56ef0bd3428fae11771198878212f8c72070966 

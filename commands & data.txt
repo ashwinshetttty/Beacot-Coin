@@ -1,0 +1,38 @@
+Generate Block Manualy:(do it in both servers/nodes)
+cd beacot/src
+./beacotd
+./beacot-cli getinfo(connectins value should be 1 or more)
+./beacot-cli generate 1
+
+
+Solo Mining Command :
+
+./minerd --url=127.0.0.1:5332 --user=coinuser --pass=coinpassword --coinbase-addr=#Address_where_mining_reward_will_go
+
+
+Get Private Key from address :
+
+open wallet which has coin
+Go to setting choose "Encrypt wallet" and set the passphrase for wallet
+then click on "Help => Debug Window"
+It will open window, choose 'Console' option
+Now at the bottom type command 
+walletpassphrase #password_of_wallet 1200
+it will just show "null"
+now go to transaction and choose address which has coin (choose received coin address)
+now type in console "dumpprivkey #choosen_address"
+then enter and it will show  you privte key
+
+
+Restore Account Using private Key
+
+Run Bitcoin-Core
+Select Help (to the right of Settings)
+Select Debug Window
+Select Console
+Run command "walletpassphrase #password_of_wallet 1200"
+then run "importprivkey #private_key"
+
+
+
+T6s52FhXmwpR38p2ydjATTJZHz29ZGKdT9FYTjaUyRhDtyzkJX7m
